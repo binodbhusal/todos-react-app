@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+# 📗 Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
 
-## Available Scripts
+- [🔭 Future Features](#future-features)
 
-In the project directory, you can run:
+- [🤝 Contributing](#contributing)
 
-### `npm start`
+- [⭐️ Show your support](#support)
+ 
+- [🙏 Acknowledgements](#acknowledgements)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# 📖  React  project - Todos <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Miviehub-WebApi** The "Todos React App" is a project that allows users to manage their to-do list by adding, editing, and deleting tasks. It provides a user-friendly interface for organizing and keeping track of tasks efficiently.
 
-### `npm run build`
+## 🛠 Built With <a name="built-with"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML
+- CSS
+- JavaScript
+- Linters
+- Web Pack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+    <summary>Client</summary>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+        </ul>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+        </ul>
+        <ul>
+            <li><a  href="https://github.com/microverseinc/curriculum-html-css/blob/main/articles/javascript_best_practices.md">JavaScript</a></li>
+        </ul>
+</details>
 
-### `npm run eject`
+### Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Task Creation: Users can add new tasks to their to-do list by entering a task title and submitting it.
+- Task List: The app displays a list of all the tasks added by the user, showing the task titles and completion status.
+- Task Completion: Users can mark tasks as completed by checking a checkbox associated with each task.
+- Task Editing: Users can edit the title of a task by clicking on it and modifying the text inline.
+- Task Deletion: Users can delete a task from the list by clicking on a delete button associated with each task.
+- Responsive Design: The app is designed to be responsive and work seamlessly on different screen sizes and devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Comming soon
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running, follow these steps.
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to run this project you need:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Web browser.
+- Code editor.
+- Git scm.
 
-### Code Splitting
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Clone this repository to your desired folder:
 
-### Analyzing the Bundle Size
+Run this command: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```sh
+ cd my-folder
+ git clone https://github.com/binodbhusal/todos-react-app
+```
+### Install
 
-### Making a Progressive Web App
+Install this project with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run this command:
 
-### Advanced Configuration
+```sh
+ cd my-folder
+ npm install
+```
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To run the project, execute the following command:
+
+Open index.html using live server extension.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+> Comming soon
 
-### `npm run build` fails to minify
+## 👥 Authors <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Binod Bhusal**
+- GitHub: [@githubhandle](https://github.com/binodbhusal)
+- Twitter: [@twitterhandle](https://twitter.com/Binod_ironLad)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/binodbhusal)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Include Transitions and/or Animations,
+- [ ] Implement Additional Pages
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project just give it a star ⭐️ .
+
+Everybody is welcome to suggest changes.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I woild like to thanks Microverse
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
