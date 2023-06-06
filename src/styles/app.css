@@ -1,66 +1,69 @@
 html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    font-weight: 400;
-    background-color: #fff;
-    color: #000;
-    height: 100vh;
-    line-height: 1.4;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  color: #000;
+  height: 100vh;
+  line-height: 1.4;
 }
-.wrapper{
-    width: 100%;
-    padding: 8rem, 3rem 3rem;
+
+.wrapper {
+  width: 100%;
+  padding: 8rem  3rem 3rem;
 }
+
 .todos {
-    max-width: 580px;
-    margin: 0 auto;
-    box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.38);
-    padding-right: 20px;
+  max-width: 580px;
+  margin: 0 auto;
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.38);
+  padding-right: 20px;
+}
 
+form {
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 14px 0 rgba(70, 70, 70, 0.38);
+  margin-left: 35px;
 }
-form{
-    display: flex;
-    border-radius: 8px;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    box-shadow: 0px 4px 14px 0px rgba(70, 70, 70, 0.38);
-    margin-left: 35px;
-   
 
+.input-text {
+  width: 85%;
+  border: none;
+  padding-right: 5px;
+  padding-left: 20px;
+  border-radius: 12px;
 }
-.input-text{
-    width: 85%;
-    border: none;
-    padding-right: 5px;
-    padding-left: 20px;
-    border-radius: calc(0.5*100px);
-    word-wrap: break-word;
 
+.input-text::placeholder {
+  color: #000;
 }
-.input-text::placeholder{
-    color: #000;
-}
+
 .input-submit {
-    background: transparent;
-    font-weight: 600;
-    text-transform: capitalize;
-    cursor: pointer;
-    margin-right: 10px;
-    color: #5b5b5b;
+  background: transparent;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #5b5b5b;
 }
-.input-text,
-.input-submit{
-    outline: none;
-    height: 45px;
-    border: none;
 
+.input-text,
+.input-submit {
+  outline: none;
+  height: 45px;
+  border: none;
 }
+
 .submit-warning {
-    color: red;
-    display: block;
-    margin-top: 5px;
+  color: red;
+  display: block;
+  margin-top: 5px;
 }
